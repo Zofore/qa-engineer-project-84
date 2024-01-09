@@ -132,6 +132,8 @@ prerequisites: |
 Находимся в корзине с добавленными товарами
 steps:
  - Нажать на кнопку "Оформить заказ"
+ - Открыть Devtools
+ - Вкладка Network раздел Fetch/XHR 
   expected-result: |
 При нажатии кнопки "Оформить заказ" В DevTools на вкладке Network в разделе Fetch/XHR Получаем статус 200
 status: fail
